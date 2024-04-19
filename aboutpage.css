@@ -18,11 +18,6 @@ body {
          url("path/to/eight-font.woff") format("woff"),
          url("path/to/eight-font.ttf") format("truetype");
 }
-h2 {
-    font-family: bely-display, Arial, Verdana, Helvetica, sans-serif; /* Fallback fonts */
-    font-weight: 400;
-    font-style: normal;
-    padding-left: 115px;
   
 @font-face {
     font-family: bely-display;
