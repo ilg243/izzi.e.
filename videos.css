@@ -109,3 +109,10 @@ header {
 .content-wrapper:hover .peeking-illus {
     opacity: 1;
 }
+
+
+iframe.center {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
