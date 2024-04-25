@@ -16,6 +16,47 @@
             </ul>
         </nav>
 </header>
+      <style>
+    /* Resetting default margin and padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Container for the two columns */
+    .container {
+        display: flex; /* Display children in flexbox */
+    }
+
+    /* Style for the left column */
+    .left-column {
+        flex: 1; /* Occupy 1 part of the available space */
+        background-color: #f0f0f0; /* Just for demonstration */
+        padding: 20px;
+    }
+
+    /* Style for the right column */
+    .right-column {
+        flex: 1; /* Occupy 1 part of the available space */
+        background-color: #e0e0e0; /* Just for demonstration */
+        padding: 20px;
+    }
+
+    /* Add some space between columns */
+    .container > * {
+        margin: 0 10px;
+    }
+<div class="container">
+    <div class="left-column">
+        <h2>Left Column</h2>
+        <p>This is the left column. It can contain any content you want.</p>
+    </div>
+    <div class="right-column">
+        <h2>Right Column</h2>
+        <p>This is the right column. It can also contain any content you want.</p>
+    </div>
+</div>
 <div class="container">
     <div class="left-column">
         <img src="aboutprofilereal.png" alt="woman wearing cheese themed bucket hat and smiling at camera" width:"128px" height:"128px">
