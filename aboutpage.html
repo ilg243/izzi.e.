@@ -4,33 +4,50 @@
       <meta charset="UTF-8">
       <title>About</title>
       <link rel="stylesheet" type="text/css" href="aboutpage.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Two Column Layout</title>
+<style>
+    /* Resetting default margin and padding */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
+    /* Container for the two columns */
+    .container {
+        display: flex;
+    }
+
+    /* Style for the columns */
+    .column {
+        width: 50%;
+        background-color: #f0f0f0; /* Just for demonstration */
+        padding: 20px;
+    }
+</style>
 </head>
 <body>
 <header>
 <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Videos</a></li>
+                <li><a href="videos.html">Videos</a></li>
                 <li><a href="#">Merch</a></li>
                 <li><a href="contactpagedraft.html">Contact</a></li>
             </ul>
         </nav>
 </header>
-
 <div class="container">
-    <div class="left-column">
-        <img src="aboutprofilereal.png" alt="woman wearing cheese themed bucket hat and smiling at camera" width:"128px" height:"128px">
+    <div class="column">
+        <h2>Left Column</h2>
+        <p>This is the left column. It can contain any content you want.</p>
     </div>
-    <div class="right-column">
-        <h2>Hey there, I'm Izzi.e.</h2>
-        <p>Turns out they let just about anyone post YouTube videos nowadays.</p>
-       <p>I'm a lifelong artist and oddity with a love for creating things. What will create on this channel? I don't know- why are you asking me? I'm just going to make fun or die trying.</p>
-       <p>Thanks for stopping by!</p>
+    <div class="column">
+        <h2>Right Column</h2>
+        <p>This is the right column. It can also contain any content you want.</p>
     </div>
 </div>
- 
- 
        <!-- The footer includes social icons, contact email -->
         <footer class="footer">
             <div class="icons">
