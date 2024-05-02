@@ -54,6 +54,14 @@ nav ul li a {
     font-size: 35px
 }
 
+h2 {
+    font-family: bely-display;
+    font-weight: 400;
+    font-style: normal;
+    src: url("path/to/bely-display-font.woff2") format("woff2"),
+         url("path/to/bely-display-font.woff") format("woff"),
+         url("path/to/bely-display-font.ttf") format("truetype");
+
 /* Header styles */
 header {
     padding-top: 30px;
