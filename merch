@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Izzi.e.</title>
+    <link rel="stylesheet" type="text/css" href="merch.css">
+    
+</head>
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+                <li><a href="aboutpage.html">About</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="#">Merch</a></li>
+                <li><a href="contactpagedraft.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="main-content">
+            <!-- Your main content here --><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        </div>
+        
+        <!-- The footer includes social icons, contact email -->
+        <footer class="footer">
+            <div class="icons">
+                <div class="contact-info">
+                    <p>izzi.e.explains@gmail.com</p>
+                </div>
+                <img src="TwitIcon.png" alt="The Twitter Bird icon">
+                <img src="YTIcon.png" alt="The YouTube Playbutton icon">
+                <img src="KoFiIcon.png" alt="The Kofi Coffee Mug icon">
+            </div>
+        </footer>
+
+    </div>
+    
+    <!-- Peeking illustration outside the footer -->
+    <img src="PeekingIllus.png" alt="A cartoon illustration of a tuxedoed, tophated individual peeking over the footer bar" class="peeking-illus">
+
+    <script>
+        // Get the peeking image element
+        var peekingIllus = document.querySelector('.peeking-illus');
+
+        // Add scroll event listener
+        window.addEventListener('scroll', function() {
+            // Check if user has scrolled down
+            if (window.scrollY > 0) {
+                peekingIllus.style.opacity = '1'; // Show the peeking image
+            } else {
+                peekingIllus.style.opacity = '0'; // Hide the peeking image
+            }
+        });
+    </script>
+</body>
+</html>
