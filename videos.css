@@ -35,6 +35,7 @@ h2 {
     src: url("path/to/bely-display-font.woff2") format("woff2"),
          url("path/to/bely-display-font.woff") format("woff"),
          url("path/to/bely-display-font.ttf") format("truetype");
+}
 
 /* Define navigation */
 nav {
